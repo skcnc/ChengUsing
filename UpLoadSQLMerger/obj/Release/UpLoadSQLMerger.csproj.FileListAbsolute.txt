@@ -1,0 +1,18 @@
+c:\users\cheng sun\documents\visual studio 2012\Projects\UpLoadSQLMerger\UpLoadSQLMerger\bin\Release\UpLoadSQLMerger.exe.config
+c:\users\cheng sun\documents\visual studio 2012\Projects\UpLoadSQLMerger\UpLoadSQLMerger\bin\Release\UpLoadSQLMerger.exe
+c:\users\cheng sun\documents\visual studio 2012\Projects\UpLoadSQLMerger\UpLoadSQLMerger\bin\Release\UpLoadSQLMerger.pdb
+c:\users\cheng sun\documents\visual studio 2012\Projects\UpLoadSQLMerger\UpLoadSQLMerger\obj\Release\UpLoadSQLMerger.Form1.resources
+c:\users\cheng sun\documents\visual studio 2012\Projects\UpLoadSQLMerger\UpLoadSQLMerger\obj\Release\UpLoadSQLMerger.Properties.Resources.resources
+c:\users\cheng sun\documents\visual studio 2012\Projects\UpLoadSQLMerger\UpLoadSQLMerger\obj\Release\UpLoadSQLMerger.csproj.GenerateResource.Cache
+c:\users\cheng sun\documents\visual studio 2012\Projects\UpLoadSQLMerger\UpLoadSQLMerger\obj\Release\UpLoadSQLMerger.exe
+c:\users\cheng sun\documents\visual studio 2012\Projects\UpLoadSQLMerger\UpLoadSQLMerger\obj\Release\UpLoadSQLMerger.pdb
+C:\Users\Cheng Sun\documents\visual studio 2012\Projects\UpLoadSQLMerger\UpLoadSQLMerger\obj\Release\UpLoadSQLMerger.csprojResolveAssemblyReference.cache
+E:\Project\NET\UpLoadSQLMerger\UpLoadSQLMerger\bin\Release\UpLoadSQLMerger.exe.config
+E:\Project\NET\UpLoadSQLMerger\UpLoadSQLMerger\obj\Release\UpLoadSQLMerger.exe
+E:\Project\NET\UpLoadSQLMerger\UpLoadSQLMerger\obj\Release\UpLoadSQLMerger.pdb
+E:\Project\NET\UpLoadSQLMerger\UpLoadSQLMerger\bin\Release\UpLoadSQLMerger.exe
+E:\Project\NET\UpLoadSQLMerger\UpLoadSQLMerger\bin\Release\UpLoadSQLMerger.pdb
+E:\Project\NET\UpLoadSQLMerger\UpLoadSQLMerger\obj\Release\UpLoadSQLMerger.csprojResolveAssemblyReference.cache
+E:\Project\NET\UpLoadSQLMerger\UpLoadSQLMerger\obj\Release\UpLoadSQLMerger.Form1.resources
+E:\Project\NET\UpLoadSQLMerger\UpLoadSQLMerger\obj\Release\UpLoadSQLMerger.Properties.Resources.resources
+E:\Project\NET\UpLoadSQLMerger\UpLoadSQLMerger\obj\Release\UpLoadSQLMerger.csproj.GenerateResource.Cache
