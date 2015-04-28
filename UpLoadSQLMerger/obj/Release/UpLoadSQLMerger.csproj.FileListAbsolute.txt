@@ -16,3 +16,11 @@ E:\Project\NET\UpLoadSQLMerger\UpLoadSQLMerger\obj\Release\UpLoadSQLMerger.cspro
 E:\Project\NET\UpLoadSQLMerger\UpLoadSQLMerger\obj\Release\UpLoadSQLMerger.Form1.resources
 E:\Project\NET\UpLoadSQLMerger\UpLoadSQLMerger\obj\Release\UpLoadSQLMerger.Properties.Resources.resources
 E:\Project\NET\UpLoadSQLMerger\UpLoadSQLMerger\obj\Release\UpLoadSQLMerger.csproj.GenerateResource.Cache
+E:\Project\NET\UpLoadSQLMerger\ChengUsing\UpLoadSQLMerger\bin\Release\UpLoadSQLMerger.exe.config
+E:\Project\NET\UpLoadSQLMerger\ChengUsing\UpLoadSQLMerger\obj\Release\UpLoadSQLMerger.exe
+E:\Project\NET\UpLoadSQLMerger\ChengUsing\UpLoadSQLMerger\obj\Release\UpLoadSQLMerger.pdb
+E:\Project\NET\UpLoadSQLMerger\ChengUsing\UpLoadSQLMerger\bin\Release\UpLoadSQLMerger.exe
+E:\Project\NET\UpLoadSQLMerger\ChengUsing\UpLoadSQLMerger\bin\Release\UpLoadSQLMerger.pdb
+E:\Project\NET\UpLoadSQLMerger\ChengUsing\UpLoadSQLMerger\obj\Release\UpLoadSQLMerger.Form1.resources
+E:\Project\NET\UpLoadSQLMerger\ChengUsing\UpLoadSQLMerger\obj\Release\UpLoadSQLMerger.Properties.Resources.resources
+E:\Project\NET\UpLoadSQLMerger\ChengUsing\UpLoadSQLMerger\obj\Release\UpLoadSQLMerger.csproj.GenerateResource.Cache

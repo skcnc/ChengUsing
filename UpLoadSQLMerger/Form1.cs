@@ -5,11 +5,28 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+//using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.OracleClient;
 
 namespace UpLoadSQLMerger
 {
+    /// <summary>
+    /// 系统级参数定义
+    /// </summary>
+    public static class ParameterClass
+    {
+        /// <summary>
+        /// print_module_group 表生成最小值索引，用来避免与分公司添加模版冲突。
+        /// </summary>
+        public static int PRINTGROUPMIN = 1500;
+
+        /// <summary>
+        /// tbl_print_module 表生成最小值索引，用来避免与分公司添加模版冲突。
+        /// </summary>
+        public static int PRINTMODULEMIN = 1500;
+    }
+
     public partial class Form1 : Form
     {
         public Form1()
@@ -43,7 +60,16 @@ namespace UpLoadSQLMerger
                 i_trans_code_real[i] = i_trans_code[i];
             }
 
-            int t = (from item in session.Instance.TPOSDB.TRANS_DEFTableAdapter.GetData() where i_trans_code.Contains(item.TRANS_TYPE.ToString()) select item).Count();
+            int t = 0;
+
+            try
+            {
+                t = (from item in session.Instance.TPOSDB.TRANS_DEFTableAdapter.GetData() where i_trans_code.Contains(item.TRANS_TYPE.ToString()) select item).Count();
+            }
+            catch (Exception ex)
+            {
+                ex.ToString();
+            }
 
             if (t!= i_trans_code.Count())
             {
@@ -409,6 +435,14 @@ namespace UpLoadSQLMerger
             //需要添加新的屏显
             List<int> unavailiable_tdc = (from item in session.Instance.ONLINEDB.TBL_DISP_CONTENTTableAdapter.GetData() select (int)item.DATA_INDEX).Distinct().ToList();
 
+            foreach (string s in QueryEntity.TblDispContentAddRecord)
+            {
+                if (!unavailiable_tdc.Contains(int.Parse(s.Split('F')[0].Substring(1))))
+                {
+                    unavailiable_tdc.Add(int.Parse(s.Split('F')[0].Substring(1)));
+                }
+            }
+
             unavailiable_tdc.Sort();
 
             for (int k = 0; k < unavailiable_tdc.Count - 1; k++)
@@ -569,8 +603,11 @@ namespace UpLoadSQLMerger
             }
             else
             {
-                List<int> unavailiable_pmg = (from item in session.Instance.ONLINEDB.PRINT_MODULE_GROUPTableAdapter.GetData() where  (int)item.GROUP_ID > origin_print_module_group select (int)item.GROUP_ID).ToList();
 
+                // group id 从 ParameterClass.PRINTGROUPMIN 开始添加
+                // tbl_print_module 从 ParameterClass.PRINTMODULEMIN 开始
+                List<int> unavailiable_pmg = (from item in session.Instance.ONLINEDB.PRINT_MODULE_GROUPTableAdapter.GetData() where  (int)item.GROUP_ID > ParameterClass.PRINTGROUPMIN select (int)item.GROUP_ID).ToList();
+                
                 foreach (string s in QueryEntity.PrintModuleGroupAddRecord)
                 {
                     if (!unavailiable_pmg.Contains(int.Parse(s.Split('F')[0].Substring(1))))
@@ -643,7 +680,7 @@ namespace UpLoadSQLMerger
                 else
                 {
                     //说明该模版暂时不存在，需要进一步添加
-                    List<int> unavailiable_tpm = (from item in session.Instance.ONLINEDB.TBL_PRINT_MODULETableAdapter.GetData() where (int)item.MODULE > origin_tbl_print_module[k]  select (int)item.MODULE).ToList();
+                    List<int> unavailiable_tpm = (from item in session.Instance.ONLINEDB.TBL_PRINT_MODULETableAdapter.GetData() where (int)item.MODULE > ParameterClass.PRINTMODULEMIN  select (int)item.MODULE).ToList();
 
                     foreach (string s in QueryEntity.TBLPrintModuleAddRecord)
                     {

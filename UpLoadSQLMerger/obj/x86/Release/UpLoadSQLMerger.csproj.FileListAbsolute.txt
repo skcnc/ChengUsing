@@ -1,0 +1,9 @@
+E:\Project\NET\UpLoadSQLMerger\ChengUsing\UpLoadSQLMerger\bin\x86\Release\UpLoadSQLMerger.exe.config
+E:\Project\NET\UpLoadSQLMerger\ChengUsing\UpLoadSQLMerger\bin\x86\Release\UpLoadSQLMerger.exe
+E:\Project\NET\UpLoadSQLMerger\ChengUsing\UpLoadSQLMerger\bin\x86\Release\UpLoadSQLMerger.pdb
+E:\Project\NET\UpLoadSQLMerger\ChengUsing\UpLoadSQLMerger\obj\x86\Release\UpLoadSQLMerger.Properties.Resources.resources
+E:\Project\NET\UpLoadSQLMerger\ChengUsing\UpLoadSQLMerger\obj\x86\Release\UpLoadSQLMerger.csproj.GenerateResource.Cache
+E:\Project\NET\UpLoadSQLMerger\ChengUsing\UpLoadSQLMerger\obj\x86\Release\UpLoadSQLMerger.exe
+E:\Project\NET\UpLoadSQLMerger\ChengUsing\UpLoadSQLMerger\obj\x86\Release\UpLoadSQLMerger.pdb
+E:\Project\NET\UpLoadSQLMerger\ChengUsing\UpLoadSQLMerger\obj\x86\Release\UpLoadSQLMerger.csprojResolveAssemblyReference.cache
+E:\Project\NET\UpLoadSQLMerger\ChengUsing\UpLoadSQLMerger\obj\x86\Release\UpLoadSQLMerger.ParameterClass.resources
