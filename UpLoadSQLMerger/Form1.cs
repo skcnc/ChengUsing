@@ -69,6 +69,7 @@ namespace UpLoadSQLMerger
             catch (Exception ex)
             {
                 ex.ToString();
+                MessageBox.Show(ex.ToString());
             }
 
             if (t!= i_trans_code.Count())
